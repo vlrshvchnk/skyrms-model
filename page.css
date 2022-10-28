@@ -1,0 +1,172 @@
+html {
+  min-width: 960px;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  margin: 4em 2em auto 2em;
+  position: relative;
+  width: 500px;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  margin: .3em 0 .1em 0;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+h1, h2 {
+  text-rendering: optimizeLegibility;
+}
+
+h2 a {
+  color: #ccc;
+  left: -20px;
+  position: absolute;
+  width: 740px;
+}
+
+footer {
+  font-size: small;
+  margin-top: 8em;
+}
+
+header aside {
+  margin-top: 88px;
+}
+
+header aside,
+footer aside {
+  color: #636363;
+  text-align: right;
+}
+
+aside {
+  font-size: small;
+  right: 0;
+  position: absolute;
+  width: 180px;
+}
+
+.attribution {
+  font-size: small;
+  margin-bottom: 2em;
+}
+
+body > p, li > p {
+  line-height: 1.5em;
+}
+
+body > p {
+  width: 720px;
+}
+
+body > blockquote {
+  width: 640px;
+}
+
+li {
+  width: 680px;
+}
+
+a {
+  color: steelblue;
+}
+
+a:not(:hover) {
+  text-decoration: none;
+}
+
+pre, code, textarea {
+  font-family: "Menlo", monospace;
+}
+
+code {
+  line-height: 1em;
+}
+
+textarea {
+  font-size: 100%;
+}
+
+body > pre {
+  border-left: solid 2px #ccc;
+  padding-left: 18px;
+  margin: 2em 0 2em -20px;
+}
+
+sup, sub {
+  line-height: 0;
+}
+
+q:before,
+blockquote:before {
+  content: "“";
+}
+
+q:after,
+blockquote:after {
+  content: "”";
+}
+
+blockquote:before {
+  position: absolute;
+  left: 2em;
+}
+
+blockquote:after {
+  position: absolute;
+}
+
+
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+    height: auto;
+    max-width: 370px;
+    margin: 0 auto;
+    display: block;
+    overflow-x: auto;
+    border-spacing: 0;
+	text-align: left;
+}
+
+tbody {
+    white-space: nowrap;
+}
+
+th,
+td {
+    padding: 5px 10px;
+    border-top-width: 0;
+    border-left-width: 0;
+	text-align: right;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    vertical-align: bottom;
+}
+
+th:last-child,
+td:last-child {
+    border-right-width: 0;
+}
+
+tr:last-child td {
+    border-bottom-width: 0;
+}
+
