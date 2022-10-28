@@ -1,5 +1,3 @@
-'use strict';
-
 function dynamics(game, p,q){
     p_ = 1 - p;  
     q_ = 1 - q;
